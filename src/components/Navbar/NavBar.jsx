@@ -1,45 +1,21 @@
 import CartWidget  from '../CartWidget/CartWidget'
 import LogoPage from '../logo/logo'
+import {NavLink, Link} from 'react-router-dom'
 import '../Style/miAPP.css'
-import boton from './Button'
-
-
-
 const NavBar = () =>{
     return (
 <nav className="navbar navbar-expand-lg ">
+  <Link to='/'>
+ <LogoPage/>
+  </Link>
   <div className="container-fluid">
-   <LogoPage/>
-    {boton({text:'Moto 110'})}
-    {boton({text:'Moto 125'})}
-    {boton({text:'Moto 150'})}
-   <CartWidget />
+   <NavLink to={`/mi_app/src/asyncMock.jsx/category/Moto_110`} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Moto 110</NavLink> 
+   <NavLink to={`/category/Moto_125`} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Moto 125</NavLink> 
+   <NavLink to={`/category/Moto_150`} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Moto 150</NavLink> 
+
   </div>
-  
-</nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+  <CartWidget />
+</nav>    
     )
 }
 

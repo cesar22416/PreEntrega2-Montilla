@@ -1,9 +1,8 @@
-@font-face {
-    font-family:Ruthless Wreckin TWO;
-    src: url(RuthlessWreckin2.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;700&family=Indie+Flower&family=Kenia&family=Nova+Square&family=Roboto+Mono&display=swap');
+
+*{
+    font-family: 'Nova Square', sans-serif; 
 }
-
-
 
 .clasecolores{
     background:
@@ -16,6 +15,7 @@
 
 .navbar{
     background:wheat;
+    
 }
 
 .bt{
@@ -27,6 +27,7 @@
     justify-content: center;
     margin-top: 30px;
     color: #e28000;
+    font-family: 'Nova Square', sans-serif;
 }
 
 .Item-titulo:hover{
@@ -34,5 +35,34 @@
 }
 
 .buttonComp{
-    color: red;
+    background: #e00000;
+    font-family: 'Nova Square', sans-serif; 
+}
+
+
+
+.Nav-logo{
+    animation-name: girarb;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes girarb{
+    from{
+transform:rotate(0deg);
+    }to{
+transform:rotate(360deg);
+    }
+}
+
+
+.ListGroup{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
