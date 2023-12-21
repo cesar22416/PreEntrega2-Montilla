@@ -1,0 +1,14 @@
+.ItemDetailContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   width: 98%;
+   margin-left: 15px;
+    background: rgba(233, 9, 16, 0.12);
+   border-radius: 2px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+   border: 1px solid rgba(233, 9, 16, 0.4);
+}

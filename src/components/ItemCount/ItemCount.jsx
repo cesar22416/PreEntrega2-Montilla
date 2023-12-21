@@ -20,15 +20,15 @@ const decrement = () =>{
 
 
 return (
-    <div className='Counter'>
-        <div className='controls'>
+    <div>
+        <div className='ItemCount'>
             <button className='Button Button btn btn-warning' onClick={decrement}>-</button>
             <h4 className='Number'>{quantity}</h4>
             <button className='Button Button btn btn-warning' onClick={increment}>+</button>
         </div>
         <div>
             <button className='Button btn btn-warning' onClick={()=> onAdd(quantity)} disabled={!stock} >
-                agregar al carrito
+                Comprar
             </button>
         </div>
     </div>

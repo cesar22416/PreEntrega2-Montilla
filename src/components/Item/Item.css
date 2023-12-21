@@ -1,0 +1,18 @@
+.ItemCard{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    background: #ffc340;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    margin-left:10px ;
+    margin-right: 10px;
+}
+
+.itemImg{
+
+    width: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}

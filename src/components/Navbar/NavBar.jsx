@@ -9,10 +9,11 @@ const NavBar = () =>{
  <LogoPage/>
   </Link>
   <div className="container-fluid">
-   <NavLink to={`/mi_app/src/asyncMock.jsx/category/Moto_110`} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Moto 110</NavLink> 
-   <NavLink to={`/category/Moto_125`} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Moto 125</NavLink> 
-   <NavLink to={`/category/Moto_150`} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Moto 150</NavLink> 
-
+   <NavLink to={`/category/motouno`} className='btn btn-warning'>Moto 110</NavLink> 
+   <NavLink to={`/category/MotoDos`} className='btn btn-warning'>Moto 125</NavLink> 
+   <NavLink to={`/category/MotoTres`} className='btn btn-warning'>Moto 150</NavLink>
+   <NavLink to={`/category/MotoCua`} className='btn btn-warning'>Moto 200</NavLink> 
+    <NavLink to={`/category/MotoCin`} className='btn btn-warning'>Moto 250</NavLink>
   </div>
   <CartWidget />
 </nav>    

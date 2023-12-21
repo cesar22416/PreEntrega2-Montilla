@@ -3,7 +3,13 @@
 *{
     font-family: 'Nova Square', sans-serif; 
 }
-
+body{
+    background-image:url(https://www.moto1pro.com/sites/default/files/1_bmwk1100lt_caferacer.jpeg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
 .clasecolores{
     background:
 #ff0000
@@ -55,14 +61,17 @@ transform:rotate(0deg);
 transform:rotate(360deg);
     }
 }
-
-
 .ListGroup{
-    display: flex;
-}
+   display: flex;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   width: 95%;  
+   background: rgba(233, 9, 16, 0.12);
+   border-radius: 2px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+   border: 1px solid rgba(233, 9, 16, 0.4);
 
-.card{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
 }

@@ -1,0 +1,13 @@
+.ItemDetail{
+width: 250px;
+background: #ff0000;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius:10px;
+}
+
+.ItemDetailImg{
+width: 200px;
+border-radius: 5px;
+}

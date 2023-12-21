@@ -1,19 +1,19 @@
 /* eslint-disable react/prop-types */
 import ItemCount from "../ItemCount/ItemCount"
-
+import './ItemDetail.css'
 
 
 // eslint-disable-next-line no-unused-vars
 const ItemDetail = ({id, name, img, category, description, price, stock}) =>{
     return(
-        <article className="CartItem ">
-            <header className="Header">
+        <article className="ItemDetail" >
+            <header className="">
                 <h2 className="ItemHeader">
                     {name}
                 </h2>
             </header>
             <picture>
-                <img src={img} alt={name} className="itemImg"/>
+                <img src={img} alt={name} className="ItemDetailImg"/>
             </picture>
             <section>
                 <p className="Info">

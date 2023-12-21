@@ -3,6 +3,7 @@ import { useState,useEffect } from "react"
 import {getProducts, getProductByCategory} from '../../asyncMock'
 import ItemList from '../ItemList/ItemList'
 import { useParams} from 'react-router-dom'
+import  '../Style/miAPP.css'
 
 const ItemListContainer = ({greeting}) => {
     const [products, setProducts] = useState([])
@@ -10,6 +11,7 @@ const ItemListContainer = ({greeting}) => {
      
     useEffect(() =>{
         const asyncFunc = categoryId ? getProductByCategory : getProducts
+        
         asyncFunc(categoryId)
         .then(response => {
             setProducts(response)
