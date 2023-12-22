@@ -46,6 +46,14 @@ export const getProductByCategory = (categoryId) => {
     stock:2,
     description:'Moto 110'
 },{
+    id:"1.1",
+    name:'M110',
+    price:1500,
+    category:"motouno",
+    img:'https://lamoto.com.ar/wp-content/uploads/2021/06/Moto-cub-piloto-y-pasajero-accion.jpg',
+    stock:2,
+    description:'Moto 110'
+},{
     id:"2",
     name:'M125',
     price:2500,
@@ -54,11 +62,27 @@ export const getProductByCategory = (categoryId) => {
     stock:55,
     description:'Moto 125'
 },{
+    id:"2.2",
+    name:'M125',
+    price:2500,
+    category:'MotoDos',
+    img:'https://www.clarin.com/img/2021/12/01/Vzp1TLfvv_720x0__1.jpg',
+    stock:55,
+    description:'Moto 125'
+},{
     id:"3",
     name:'M150',
     price:15400,
     category:'MotoTres',
-    img:'https://media.gettyimages.com/id/1186348217/es/foto/conductor-de-motocicleta-negra.jpg?s=612x612&w=0&k=20&c=F2fBx1oUprPyyxzVqqNphMW6mrLfPOHMYFsU5LXivlg=',
+    img:'https://www.aboutespanol.com/thmb/u3tE3j89GZvnpjNJ_63HHZpBvTI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/KawasakiNinja-ec7fdb376a5e471ebcc844b5cb2f7594.jpeg',
+    stock:44,
+    description:'Moto 150'
+},{
+    id:"3.3",
+    name:'M150',
+    price:15400,
+    category:'MotoTres',
+    img:'https://img.freepik.com/fotos-premium/estudiante-masculino-posa-moto-montando-motordrome-escuela-motos-entrenamiento-motociclistas-principiantes-ciclista-practicando-autoescuela_266732-30816.jpg?w=2000',
     stock:44,
     description:'Moto 150'
 },{
@@ -70,11 +94,27 @@ export const getProductByCategory = (categoryId) => {
     stock:44,
     description:'Moto 200'
 },{
+    id:"4.4",
+    name:'M200',
+    price:15400,
+    category:'MotoCua',
+    img:'https://www.galgo.com/wp-content/uploads/2023/04/cafe-racer-yamaha.jpg',
+    stock:44,
+    description:'Moto 200'
+},{
     id:"5",
     name:'M250',
     price:154000,
     category:'MotoCin',
-    img:'https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/06/29/16565207338905.jpg',
+    img:'https://i.pinimg.com/originals/02/68/c6/0268c6511a2aa7e0119ac9e4fc869a8a.jpg',
+    stock:4,
+    description:'Moto 250'
+},{
+    id:"5.5",
+    name:'M250',
+    price:154000,
+    category:'MotoCin',
+    img:'https://files.cults3d.com/uploaders/26641820/illustration-file/dbc625cb-7841-4fed-98c9-e8de3428f0fd/CB750-RC42-Cafe-Racer-3.jpg',
     stock:4,
     description:'Moto 250'
 }
