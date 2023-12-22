@@ -74,7 +74,7 @@ export const getProductByCategory = (categoryId) => {
     name:'M250',
     price:154000,
     category:'MotoCin',
-    img:'https://media.gettyimages.com/id/1125235071/es/foto/germany-cologne-young-woman-riding-motorcycle-on-bridge.jpg?s=612x612&w=0&k=20&c=5Zr5u26pjf32R5DV4nokcrq6k5Q_SpxcIhbfX2H3Cag=',
+    img:'https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/06/29/16565207338905.jpg',
     stock:4,
     description:'Moto 250'
 }

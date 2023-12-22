@@ -46,13 +46,13 @@ body{
 }
 
 
-
+/*
 .Nav-logo{
     animation-name: girarb;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
+}*/
 
 @keyframes girarb{
     from{
@@ -67,11 +67,10 @@ transform:rotate(360deg);
    align-items: center;
    justify-content: center;
    width: 95%;  
-   background: rgba(233, 9, 16, 0.12);
-   border-radius: 2px;
-   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-   backdrop-filter: blur(4.1px);
-  -webkit-backdrop-filter: blur(4.1px);
-   border: 1px solid rgba(233, 9, 16, 0.4);
+    background: rgba(23, 23, 23, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.7px);
+-webkit-backdrop-filter: blur(7.7px);
 
 }
