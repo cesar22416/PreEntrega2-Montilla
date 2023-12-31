@@ -4,11 +4,12 @@
     font-family: 'Nova Square', sans-serif; 
 }
 body{
-    background-image:url(https://www.moto1pro.com/sites/default/files/1_bmwk1100lt_caferacer.jpeg) ;
+    background-image:url(https://www.allenandallen.com/wp-content/uploads/2011/05/motorcycle-2186589_640.jpg) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    min-height: 100%;
 }
 .clasecolores{
     background:
@@ -23,6 +24,10 @@ body{
     background:wheat;
     
 }
+.NavbarBurge{
+    display: flex;
+    justify-content:flex-end ;
+}
 
 .bt{
     background: #e00000;
@@ -34,10 +39,12 @@ body{
     margin-top: 30px;
     color: #e28000;
     font-family: 'Nova Square', sans-serif;
+    margin-bottom: 15%;
 }
 
 .Item-titulo:hover{
     color: #ff0000;
+    
 }
 
 .buttonComp{
