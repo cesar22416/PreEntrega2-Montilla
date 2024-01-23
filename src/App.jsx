@@ -5,7 +5,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import Footer from './components/Fototer/Footer';
 import { CartProvider } from './components/context/CartContext';
 import Cart from './components/Cart/Cart'
-import Checkout from './components/Checkout/Checkout';
+import Checkout from './components/CheckoutCart/checkout';
 
 
 

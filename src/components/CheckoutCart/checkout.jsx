@@ -40,12 +40,16 @@ export const Checkout = () =>{
         
 <div>
     <h1>Finalizar compra</h1>
+     {cart.length === 0 ? (
+      <p>No hay productos en el carrito</p>
+    ) : (
     <form onSubmit={handleSubmit(comprar)} >
       <input type="text" placeholder="Ingresa tu numero" {...register('nombre')}/>
       <input type="email" placeholder="Ingresa tu email" {...register('email')} />
       <input type="phone" placeholder="Ingresa tu numero" {...register('telefono')}/>
-      <button type="submit">Comprar</button>
+      <button type="submit" disabled={cart.length === 0}>Comprar</button>
     </form>
+    )}
 </div>
 
     )
