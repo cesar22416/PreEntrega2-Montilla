@@ -8,13 +8,13 @@ export const CartContext = createContext({
 export const CartProvider = ({children}) => {
     const [cart, setCart] = useState([])
     
-    console.log(cart)
+    console.log()
 
     const addItem = (item, quantity) => {
         if(!isIncart(item.id)){
             setCart(prev =>[... prev,{...item, quantity}])
         }else{
-            console.error('el producto ya fue agregado')
+            console.log()
 
         }
     }

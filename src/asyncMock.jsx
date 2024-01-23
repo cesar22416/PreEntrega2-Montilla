@@ -43,7 +43,7 @@ export const getProductByCategory = (categoryId) => {
     price:1500,
     category:"motouno",
     img:'https://media.gettyimages.com/id/967326474/es/foto/joven-pareja-teniendo-diversi%C3%B3n-scooter-de-montar-a-caballo-en-el-casco-antiguo-europeo.jpg?s=612x612&w=0&k=20&c=GYj5X8X81kc4DakWFxv9k3-SgPRpgYv-HDRPlpMf40Q=',
-    stock:2,
+    stock:20,
     description:'Moto 110'
 },{
     id:"1.1",
@@ -51,7 +51,7 @@ export const getProductByCategory = (categoryId) => {
     price:1500,
     category:"motouno",
     img:'https://lamoto.com.ar/wp-content/uploads/2021/06/Moto-cub-piloto-y-pasajero-accion.jpg',
-    stock:2,
+    stock:20,
     description:'Moto 110'
 },{
     id:"2",
