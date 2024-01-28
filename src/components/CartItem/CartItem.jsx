@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import{ useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import './cartitem.css'
 
 const CartItem = ({ id, name, quantity, price }) => {
   const { removeItem, updateItem } = useContext(CartContext);
@@ -19,7 +20,7 @@ const CartItem = ({ id, name, quantity, price }) => {
         <span className="item-name">{name}</span>
         <span className="item-quantity">
           Cantidad:{" "}
-          <input
+          <input  className="item-details"
             type="number"
             value={quantity}
             onChange={(e) => handleQuantityChange(e.target.value)}
@@ -27,7 +28,7 @@ const CartItem = ({ id, name, quantity, price }) => {
         </span>
         <span className="item-price">Precio: ${price}</span>
         <span className="item-total">Total: ${price * quantity}</span>
-        <button onClick={handleRemoveItem}>Eliminar</button>
+        <button className="btn btn-warning" onClick={handleRemoveItem}>Eliminar</button>
       </div>
     </div>
   );

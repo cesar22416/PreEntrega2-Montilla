@@ -10,6 +10,7 @@ import  '../Style/miAPP.css'
 
 const ItemListContainer = ({greeting}) => {
     const [products, setProducts] = useState([])
+    // eslint-disable-next-line no-unused-vars
     const [loading, setLoading] = useState(true)
 
     const {categoryId} = useParams()

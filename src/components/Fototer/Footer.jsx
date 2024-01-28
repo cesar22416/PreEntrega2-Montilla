@@ -7,35 +7,50 @@ import Correo from './Correo.svg'
 import Geo from './Geo.svg'
 import logo from '../logo/assets/logo.svg'
 import './Footer.css'
+import { Link } from "react-router-dom"
 
 const Footer = ()=>{
     return(
     <footer className="FooterBoxM ">
 
   <div className="container-fluid FooterBoxP" >
-    <a className="navbar-brand" href="#">
+
+    <Link className="navbar-brand" href="#">
     <img src={logo} alt='Icomlogo' className="FooterLogo" />
-    </a>
+    </Link>
+
   </div>
   <div className="container-fluid FooterBoxH" >
-    <a className="navbar-brand" href="#">
+ <span>
+    <Link className="navbar-brand" href="#">
     <img src={Faceboock} alt='IcomFacebook' className="FooterIcom"/>
-    </a>
-    <a className="navbar-brand" href="#">
+    </Link>
+ </span>
+ <span>
+    <Link className="navbar-brand" href="#">
     <img src={Instagram} alt='IcomInstagram'  className="FooterIcom" />
-    </a>
-    <a className="navbar-brand" href="#">
+    </Link>
+ </span>
+ <span>
+    <Link className="navbar-brand" href="#">
     <img src={Youtube} alt='IcomYoutube'  className="FooterIcom" />
-    </a>
-    <a className="navbar-brand" href="#">
+    </Link>
+ </span>
+ <span>
+    <Link className="navbar-brand" href="#">
     <img src={Telephone} alt='IcomTelephone'  className="FooterIcom" />
-    </a>
-    <a className="navbar-brand" href="#">
+    </Link>
+ </span>
+ <span>
+    <Link className="navbar-brand" href="#">
     <img src={Correo} alt='IcomCorreo'  className="FooterIcom" />
-    </a>
-    <a className="navbar-brand" href="#">
+    </Link>
+    </span>
+ <span>
+    <Link className="navbar-brand" href="#">
     <img src={Geo} alt='IcomGeo'  className="FooterIcom"/>
-    </a>
+    </Link>
+</span>
   </div>
 
 

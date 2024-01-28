@@ -16,11 +16,11 @@ const NavBar = () =>{
   
   <div className=" NavbarBurge collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav">
-      <Link className="nav-item nav-link"><NavLink to={`/category/motouno`} className='btn btn-warning'>Moto 110</NavLink></Link>
-      <Link className="nav-item nav-link" ><NavLink to={`/category/MotoDos`} className='btn btn-warning'>Moto 125</NavLink></Link>
-      <Link className="nav-item nav-link" ><NavLink to={`/category/MotoTres`} className='btn btn-warning'>Moto 150</NavLink></Link>
-      <Link className="nav-item nav-link"><NavLink to={`/category/MotoCua`} className='btn btn-warning'>Moto 200</NavLink> </Link>
-      <Link className="nav-item nav-link "><NavLink to={`/category/MotoCin`} className='btn btn-warning'>Moto 250</NavLink></Link>
+      <span className="nav-item nav-link"><NavLink to={`/category/motouno`} className='btn btn-warning'>Moto 110</NavLink></span>
+      <span className="nav-item nav-link" ><NavLink to={`/category/MotoDos`} className='btn btn-warning'>Moto 125</NavLink></span>
+      <span className="nav-item nav-link" ><NavLink to={`/category/MotoTres`} className='btn btn-warning'>Moto 150</NavLink></span>
+      <span className="nav-item nav-link"><NavLink to={`/category/MotoCua`} className='btn btn-warning'>Moto 200</NavLink> </span>
+      <span className="nav-item nav-link "><NavLink to={`/category/MotoCin`} className='btn btn-warning'>Moto 250</NavLink></span>
     <CartWidget/>
     </div>
     </div>

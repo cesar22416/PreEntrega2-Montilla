@@ -1,0 +1,17 @@
+.cart{
+    background: none;
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+.carttwo{
+    align-content: center;
+    background: white;
+    width:250px;
+    height: 650px;
+    margin-bottom: 32%;
+    margin-top: 50px;
+    align-items: center;
+}

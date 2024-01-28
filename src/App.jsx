@@ -7,14 +7,12 @@ import { CartProvider } from './components/context/CartContext';
 import Cart from './components/Cart/Cart'
 import Checkout from './components/CheckoutCart/checkout';
 
-
-
-
 function App(){
     return(
+       
             <BrowserRouter>
-            <CartProvider>
             <NavBar/>
+            <CartProvider>
             <Routes>
            <Route path='/' element={<ItemListContainer/>}/>
            <Route path='/category/:categoryId' element={<ItemListContainer/>}/>
@@ -26,7 +24,7 @@ function App(){
             <Footer/>
             </CartProvider>
             </BrowserRouter>
-            
+        
     );
 }
 

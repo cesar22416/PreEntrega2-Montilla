@@ -1,0 +1,10 @@
+.cart-item{
+    background: none;
+    display: grid;
+    place-items: center;
+}
+
+.item-details{
+    display: grid;
+    place-items: center;
+}
