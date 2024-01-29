@@ -29,7 +29,5 @@ Este software utiliza los siguientes paquetes de código abierto:
 ## Apoyo
 [ CoderHouse ] (https://www.coderhouse.com/ )
 ## Licencia
-MIT
---- 
 > GitHub [@cesar22416](https://github.com/cesar22416)  · 
 
