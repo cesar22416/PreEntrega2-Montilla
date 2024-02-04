@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import CartWidget from '../CartWidget/CartWidget';
+import CartWidget from '../CartWidget/CartWidget'
 import LogoPage from '../logo/logo';
 import '../Style/miAPP.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,7 +14,7 @@ const NavBar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link to="/" navbar-brand="true">
+      <Link to="/" navbar-brand="">
         <LogoPage />
       </Link>
       <button

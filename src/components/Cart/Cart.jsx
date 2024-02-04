@@ -40,9 +40,9 @@ const Cart = () => {
 
     if (totalQuantity === 0) {
         return (
-            <div>
+            <div className="cart" >
                 <h1>No hay ítems en el carrito</h1>
-                <Link to='/' className="Option">Productos</Link>
+                <Link to='/' className="Option btn btn-danger ">Productos</Link>
             </div>
         )
     }

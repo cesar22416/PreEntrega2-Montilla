@@ -1,8 +1,17 @@
 .cart{
     background: none;
-    display: grid;
-    place-items: center;
-    
+    display: flex;
+    flex-direction: column;
+    background: rgba(250, 245, 245, 0.641);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(195, 193, 193, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 32%;
     
 }
 

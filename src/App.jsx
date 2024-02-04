@@ -9,10 +9,10 @@ import Checkout from './components/CheckoutCart/checkout';
 
 function App(){
     return(
-       
+       <div>
             <BrowserRouter>
-            <NavBar/>
             <CartProvider>
+            <NavBar/>
             <Routes>
            <Route path='/' element={<ItemListContainer/>}/>
            <Route path='/category/:categoryId' element={<ItemListContainer/>}/>
@@ -24,6 +24,7 @@ function App(){
             <Footer/>
             </CartProvider>
             </BrowserRouter>
+            </div>
         
     );
 }
